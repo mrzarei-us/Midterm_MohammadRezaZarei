@@ -29,5 +29,6 @@ struct DetailView: View {
 }
 
 #Preview {
-    DetailView(subject: Subject(id: 0, name: "Preview", imageName: "kyoto", description: "Preview description."))
+    DetailView(subject: Subject(id: ""
+                                , name: "Preview", imageName: "kyoto", description: "Preview description."))
 }

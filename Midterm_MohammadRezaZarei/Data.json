@@ -1,62 +1,62 @@
 [
     {
-        "id": "aa32jj887hhg55",
-        "name": "replace with your item's name 1",
-        "description": "replace with a description for this item",
-        "imageName": "image1"
+        "id": "01-germany",
+        "name": "Germany",
+        "description": "Capital: Berlin\nRegion: Europe\nAbout: Population ~83M. Known for engineering and the Brandenburg Gate.",
+        "imageName": "germany"
     },
     {
-        "id": "bb32jj887hhg77",
-        "name": "replace with your item's name 2",
-        "description": "replace with a description for this item",
-        "imageName": "image2"
+        "id": "02-france",
+        "name": "France",
+        "description": "Capital: Paris\nRegion: Europe\nAbout: Population ~68M. Eiffel Tower, Louvre Museum, and rich cuisine.",
+        "imageName": "france"
     },
     {
-        "id": "cc32jj887hhg66",
-        "name": "replace with your item's name 3",
-        "description": "replace with a description for this item",
-        "imageName": "image3"
+        "id": "03-japan",
+        "name": "Japan",
+        "description": "Capital: Tokyo\nRegion: Asia\nAbout: Population ~124M. High-tech, Shinto shrines, and cherry blossoms.",
+        "imageName": "japan"
     },
     {
-        "id": "dd32jj887hhg88",
-        "name": "replace with your item's name 3",
-        "description": "replace with a description for this item",
-        "imageName": "image4"
+        "id": "04-iran",
+        "name": "Iran",
+        "description": "Capital: Tehran\nRegion: Asia\nAbout: Population ~88M. Milad Tower and historic bazaars.",
+        "imageName": "iran"
     },
     {
-        "id": "ee32jj887hhg99",
-        "name": "replace with your item's name 4",
-        "description": "replace with a description for this item",
-        "imageName": "image5"
+        "id": "05-brazil",
+        "name": "Brazil",
+        "description": "Capital: Bras\u00edlia\nRegion: South America\nAbout: Population ~203M. Planned capital with modernist architecture.",
+        "imageName": "brazil"
     },
     {
-        "id": "ff32jj887hhg99",
-        "name": "replace with your item's name 5",
-        "description": "replace with a description for this item",
-        "imageName": "image6"
+        "id": "06-canada",
+        "name": "Canada",
+        "description": "Capital: Ottawa\nRegion: North America\nAbout: Population ~40M. Parliament Hill on the Ottawa River.",
+        "imageName": "canada"
     },
     {
-        "id": "gg32jj887hhg99",
-        "name": "replace with your item's name 6",
-        "description": "replace with a description for this item",
-        "imageName": "image7"
+        "id": "07-australia",
+        "name": "Australia",
+        "description": "Capital: Canberra\nRegion: Oceania\nAbout: Population ~27M. Capital designed by Walter Burley Griffin.",
+        "imageName": "australia"
     },
     {
-        "id": "hh32jj887hhg99",
-        "name": "replace with your item's name 7",
-        "description": "replace with a description for this item",
-        "imageName": "image8"
+        "id": "08-egypt",
+        "name": "Egypt",
+        "description": "Capital: Cairo\nRegion: Africa\nAbout: Population ~110M. Near the ancient Pyramids of Giza.",
+        "imageName": "egypt"
     },
     {
-        "id": "ii32jj887hhg99",
-        "name": "replace with your item's name 8",
-        "description": "replace with a description for this item",
-        "imageName": "image9"
+        "id": "09-india",
+        "name": "India",
+        "description": "Capital: New Delhi\nRegion: Asia\nAbout: Population ~1.4B. Government district designed by Lutyens.",
+        "imageName": "india"
     },
     {
-        "id": "jj32jj887hhg99",
-        "name": "replace with your item's name 9",
-        "description": "replace with a description for this item",
-        "imageName": "image10"
+        "id": "10-united-states",
+        "name": "United States",
+        "description": "Capital: Washington, D.C.\nRegion: North America\nAbout: Population ~331M. National Mall and Capitol Building.",
+        "imageName": "united_states"
     }
 ]

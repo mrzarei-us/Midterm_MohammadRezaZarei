@@ -5,8 +5,8 @@
 
 import Foundation
 
-struct Subject: Codable, Identifiable {
-    let id: Int
+struct Subject: Codable, Identifiable, Hashable {
+    let id: String
     let name: String
     let imageName: String
     let description: String
