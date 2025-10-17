@@ -1,37 +1,66 @@
+
 # Midterm – SwiftUI (CIS 137)
 **Project:** Midterm_MohammadRezaZarei  
 **Author:** Mohammad Reza Zarei  
-**Date:** 2025-10-16
+**Date:** 2025-10-16  
+
+---
 
 ## Overview
-This SwiftUI app displays a list of **travel destinations** loaded from a JSON file. Tapping an item pushes a **detail screen** with a larger image, the name, and a description.
+This is my midterm project for **CIS 137 – SwiftUI Programming**.  
+The app displays a list of **countries and their capitals**, all loaded dynamically from a local **JSON file**.  
+When a user taps on a country, a **detail view** opens showing a larger image, capital, and a short description.  
 
-## How to Run
-1. In Xcode, create a new **SwiftUI App** named `Midterm_MohammadRezaZarei` (Bundle Identifier suggestion: `com.mzarei.midterm`).
-2. Replace the auto‑generated files with those in this repository:
-   - Copy `Models`, `Views`, `Resources`, and `Assets.xcassets` into your project.
-   - Keep `Midterm_MohammadRezaZareiApp.swift` as the app entry.
-3. Ensure `Data.json` is added to the target (File Inspector ▸ Target Membership checked).
-4. Build & run on **iPhone simulator**.
-5. Tap a list item to navigate to details and then back.
+This project helped me understand how to:
+- Use `NavigationStack` and `NavigationLink`
+- Load and decode local JSON data
+- Pass data between views
+- Organize assets and models in SwiftUI
+
+---
+
+## Structure & Data Flow
+
+| File                                 | Description 
+|--------------------------------------|--------------
+| `Midterm_MohammadRezaZareiApp.swift` | Entry point of the app. Launches `ContentView()`.
+| `ContentView.swift`                  | Displays the list of all countries using data from `Data.json`.
+| `DetailView.swift`                   | Shows the image and description for the selected country.
+| `Subject.swift`                      | Model struct (Codable & Identifiable). Defines data fields for each country.
+| `Helper.swift`                       | Contains a generic JSON loader used across the project.
+| `Data.json`                          | The dataset – contains 10 countries, each with name, capital, region, and image reference.
+
+
+
+## Folder structure:
+
+Midterm_MohammadRezaZarei/
+├── ContentView.swift
+├── DetailView.swift
+├── Helper.swift
+├── Subject.swift
+├── Data.json
+├── README.md
+└── Media/
+    └── MidtermDemo.mp4
+
+
 
 ## JSON & Images
-- Edit `Resources/Data.json` to change items.
-- Place images in `Assets.xcassets/Images/` and use matching names in the JSON (`imageName`).  
-- This zip includes **placeholder PNGs** for: kyoto, rome, santorini, kyiv, seoul, cusco.
+- To update content, edit `Resources/Data.json`.  
+- Add your PNGs to `Assets.xcassets/Images/`.  
+- The `imageName` field in JSON must match the image file name.  
+
+Current images include: **germany, france, japan, iran, brazil, canada, australia, egypt, india, united_states**.
+
+---
 
 ## README Video
-Record a short simulator video (QuickTime or Xcode's recording), upload to a public host (GitHub issue or user content), and **paste the video link** in this README under this section.
 
-## Rubric Mapping
-- **Bundle identifier**: Use reverse URL, e.g., `com.mzarei.midterm` (set in Project ▸ Signing).
-- **Documentation**: Header comments with 'Midterm Project', name, and date are in `ContentView.swift`.
-- **Title**: Navigation title includes the student name.
-- **JSON**: Data is read from `Resources/Data.json` via `load<T>()` in `Helper.swift`.
-- **List**: Home screen list shows **image + name** using `ForEach`.
-- **Navigation**: Tap item → `DetailView` shows **large image + name + description**.
-- **README**: This file explains the project, usage, and where to add the demo video.
+A short demo of the app navigation and JSON data display.
 
-## Notes
-- The subject is **not dogs** (per instructions); it’s **travel destinations**.
-- All Swift files are kept simple and documented for grading clarity.
+<video src="Media/MidtermDemo.mp4" controls width="400"></video>
+
+[▶️ Watch the demo video](Media/MidtermDemo.mp4)
+
+
