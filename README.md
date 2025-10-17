@@ -35,15 +35,25 @@ This project helped me understand how to:
 ## Folder Structure
 
 Midterm_MohammadRezaZarei/
+
 │
+
 ├── ContentView.swift
+
 ├── DetailView.swift
+
 ├── Helper.swift
+
 ├── Subject.swift
+
 ├── Data.json
+
 ├── README.md
+
 └── Media/
+
     └── MidtermDemo.mov
+    
 
 
 
