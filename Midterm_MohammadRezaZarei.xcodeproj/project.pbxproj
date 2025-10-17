@@ -24,12 +24,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19B247742EA2F6D700F0F5EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		19B87CA02EA1ABB4004358BB /* Midterm_MohammadRezaZarei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Midterm_MohammadRezaZarei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B87CB02EA1ABB6004358BB /* Midterm_MohammadRezaZareiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Midterm_MohammadRezaZareiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B87CBA2EA1ABB6004358BB /* Midterm_MohammadRezaZareiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Midterm_MohammadRezaZareiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		19B248112EA3026E00F0F5EE /* Exceptions for "Media" folder in "Midterm_MohammadRezaZarei" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MidtermDemo.mov,
+			);
+			target = 19B87C9F2EA1ABB4004358BB /* Midterm_MohammadRezaZarei */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		19B2480F2EA3024000F0F5EE /* Media */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				19B248112EA3026E00F0F5EE /* Exceptions for "Media" folder in "Midterm_MohammadRezaZarei" target */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		19B87CA22EA1ABB4004358BB /* Midterm_MohammadRezaZarei */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Midterm_MohammadRezaZarei;
@@ -75,10 +94,12 @@
 		19B87C972EA1ABB4004358BB = {
 			isa = PBXGroup;
 			children = (
+				19B2480F2EA3024000F0F5EE /* Media */,
 				19B87CA22EA1ABB4004358BB /* Midterm_MohammadRezaZarei */,
 				19B87CB32EA1ABB6004358BB /* Midterm_MohammadRezaZareiTests */,
 				19B87CBD2EA1ABB6004358BB /* Midterm_MohammadRezaZareiUITests */,
 				19B87CA12EA1ABB4004358BB /* Products */,
+				19B247742EA2F6D700F0F5EE /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +129,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				19B2480F2EA3024000F0F5EE /* Media */,
 				19B87CA22EA1ABB4004358BB /* Midterm_MohammadRezaZarei */,
 			);
 			name = Midterm_MohammadRezaZarei;

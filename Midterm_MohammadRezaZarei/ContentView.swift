@@ -14,19 +14,19 @@ struct ContentView: View {
     private let subjects: [Subject] = load("Data.json")
 
     var body: some View {
+        // Modern navigation system (replaces NavigationView)
         NavigationStack {
             List(subjects) { item in
-                NavigationLink(value: item) {
+                NavigationLink(value: item) { // Tap → navigate to detail
                     HStack(spacing: 12) {
                         Image(item.imageName)
-                            .resizable()
+                            .resizable() // allows resizing image
                             .scaledToFill()
                             .frame(width: 64, height: 64)
                             .clipShape(RoundedRectangle(cornerRadius: 12))
 
                         VStack(alignment: .leading, spacing: 4) {
-                            Text(item.name)
-                                .font(.headline)
+                            Text(item.name).font(.headline)
                             Text(item.description)
                                 .font(.subheadline)
                                 .lineLimit(2)

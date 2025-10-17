@@ -32,9 +32,10 @@ This project helped me understand how to:
 
 
 
-## Folder structure:
+## Folder Structure
 
 Midterm_MohammadRezaZarei/
+│
 ├── ContentView.swift
 ├── DetailView.swift
 ├── Helper.swift
@@ -42,7 +43,8 @@ Midterm_MohammadRezaZarei/
 ├── Data.json
 ├── README.md
 └── Media/
-    └── MidtermDemo.mp4
+    └── MidtermDemo.mov
+
 
 
 
@@ -61,6 +63,6 @@ A short demo of the app navigation and JSON data display.
 
 <video src="Media/MidtermDemo.mp4" controls width="400"></video>
 
-[▶️ Watch the demo video](Media/MidtermDemo.mp4)
+[▶️ Watch the demo video](Media/MidtermDemo.mov)
 
 
