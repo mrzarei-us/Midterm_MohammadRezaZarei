@@ -1,4 +1,3 @@
-
 # Midterm – SwiftUI (CIS 137)
 **Project:** Midterm_MohammadRezaZarei  
 **Author:** Mohammad Reza Zarei  
@@ -21,41 +20,41 @@ This project helped me understand how to:
 
 ## Structure & Data Flow
 
-| File                                 | Description 
-|--------------------------------------|--------------
-| `Midterm_MohammadRezaZareiApp.swift` | Entry point of the app. Launches `ContentView()`.
-| `ContentView.swift`                  | Displays the list of all countries using data from `Data.json`.
-| `DetailView.swift`                   | Shows the image and description for the selected country.
-| `Subject.swift`                      | Model struct (Codable & Identifiable). Defines data fields for each country.
-| `Helper.swift`                       | Contains a generic JSON loader used across the project.
-| `Data.json`                          | The dataset – contains 10 countries, each with name, capital, region, and image reference.
+| File | Description |
+|------|--------------|
+| `Midterm_MohammadRezaZareiApp.swift` | Entry point of the app. Launches `ContentView()`. |
+| `ContentView.swift` | Displays the list of all countries using data from `Data.json`. |
+| `DetailView.swift` | Shows the image and description for the selected country. |
+| `Subject.swift` | Model struct (`Codable` & `Identifiable`) defining data fields for each country. |
+| `Helper.swift` | Contains a generic JSON loader used across the project. |
+| `Data.json` | The dataset containing 10 countries with name, capital, region, and image reference. |
 
-
+---
 
 ## Folder Structure
-
+```plaintext
 Midterm_MohammadRezaZarei/
-
 │
-
+├── Midterm_MohammadRezaZareiApp.swift
 ├── ContentView.swift
-
 ├── DetailView.swift
-
 ├── Helper.swift
-
 ├── Subject.swift
-
 ├── Data.json
-
 ├── README.md
-
+├── Assets.xcassets/
+│   ├── germany.imageset/
+│   ├── france.imageset/
+│   ├── japan.imageset/
+│   ├── iran.imageset/
+│   ├── brazil.imageset/
+│   ├── canada.imageset/
+│   ├── australia.imageset/
+│   ├── egypt.imageset/
+│   ├── india.imageset/
+│   └── united_states.imageset/
 └── Media/
-
     └── MidtermDemo.mov
-    
-
-
 
 
 ## JSON & Images

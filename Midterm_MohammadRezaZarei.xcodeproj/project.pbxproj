@@ -31,7 +31,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		19B248112EA3026E00F0F5EE /* Exceptions for "Media" folder in "Midterm_MohammadRezaZarei" target */ = {
+		191C849C2EA448B40030D4D7 /* Exceptions for "Media" folder in "Midterm_MohammadRezaZarei" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				MidtermDemo.mov,
@@ -44,7 +44,7 @@
 		19B2480F2EA3024000F0F5EE /* Media */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				19B248112EA3026E00F0F5EE /* Exceptions for "Media" folder in "Midterm_MohammadRezaZarei" target */,
+				191C849C2EA448B40030D4D7 /* Exceptions for "Media" folder in "Midterm_MohammadRezaZarei" target */,
 			);
 			path = Media;
 			sourceTree = "<group>";
